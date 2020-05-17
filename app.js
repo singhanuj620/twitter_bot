@@ -15,7 +15,7 @@ var Twitter = new twit({
 var action = async () => {
     var params = {
         q: '#javascript',  // REQUIRED
-        count:25,
+        count:5,
         result_type: 'recent',
         lang: 'en'
     }
@@ -50,5 +50,5 @@ var action = async () => {
 }
 
 action();
-setInterval(action, 9000000);
+setInterval(action, 180000);
             
