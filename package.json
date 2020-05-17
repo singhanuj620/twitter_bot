@@ -1,0 +1,16 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "description": "A twitter bot made by Anuj Singh.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anuj Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "twit": "^2.2.11"
+  }
+}
